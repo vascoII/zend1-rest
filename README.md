@@ -12,7 +12,3 @@ service REST avec Zend 1.x
 - Définition de APIKEY dans application.ini
 - Création d'un plugin RestAuth pour gestion APIKEY (ie valid => OK, invalid => redirection controlleur erreur)
 - Définition du plugin dans application.ini
-
-# Codes retours
-
-- 
