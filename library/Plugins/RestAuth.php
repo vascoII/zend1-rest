@@ -18,8 +18,7 @@ class Plugins_RestAuth  extends Zend_Controller_Plugin_Abstract{
             $this   ->getResponse()
                     ->setHttpResponseCode(403);
             //Et on redirige vers le controller d'erreur
-            $request->setModuleName('rest')
-                    ->setControllerName('error')
+            $request->setControllerName('error')
                     ->setActionName('api')
                     ->setDispatched(true);
         }
